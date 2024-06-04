@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        legend{
+            background-color: aqua;
+            color: red;
+        }
+        fieldset{
+            background-color: yellowgreen;
+            
+        }
+        input{
+            background-color: burlywood;
+        }
+        body{
+            background-color:blueviolet ;
+        }
+
+    </style>
+</head>
+<body>
+    <table border="2" align="center">
+        <tr>
+            <th style="background-color: yellow; "">Step:1 Account</th>
+            <th style="background-color:yellow;">Step:2 Personal details</th>
+            <th style="background-color: red; color: yellow;">Step:3 Your review</th>
+        </tr>
+    </table>
+    <form action="http://www.example.com" >
+        <fieldset >
+            <legend>Your review:</legend>
+        
+            <p>How did you hear about us?</p>
+            <select name="" id="">
+                <option value="">facebook</option>
+                <option value="">youtube</option>
+                <option value="">instagram</option>
+                <option value="">news</option>
+            </select><br><br>
+            <input type="radio" name="select" id="yes">yes
+            <input type="radio" name="select" id="no">no 
+            <input type="radio" name="select" id="maybe">maybe <br><br>
+            <label for="comment">comment:</label><br>
+            <textarea name="comment"  id="comment" placeholder=" enter your comment" rows="12" cols="20"></textarea><br><br>
+            <label for="Document">Document:</label><br>
+            <input type="file" id="Document" name="Document"><br><br>
+            <input type="checkbox" id="email-signup" name="email-signup"> Signup for email updates <br><br>
+            <a href="personal.html"><img src="images (3).jpeg" alt="" width="80" height="30"></a>
+            <a href="thanks.html"><img src="submit.png" alt="" width="80" height="30"></a>
+            
+
+        </fieldset>
+    </form>
+</body>
+</html>
